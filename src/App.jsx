@@ -47,6 +47,10 @@ const App = createBrowserRouter([
       }
     ]
   },
-]);
+],
+{
+  basename: "/reactrouter-practica", // Ajusta esto al subdirectorio donde esté alojada tu aplicación
+}
+);
 
 export default App
